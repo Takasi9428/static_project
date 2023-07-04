@@ -3,11 +3,13 @@ package practice;
 public class PracticeSwitch {
 
 	public static void main(String[] args) {
-		// array準備
-		int[] array = { 1, 2, 3, 4, 5, 1, 3, 2, 4, 5 };
-		// arrayをfor文でまわすi
-		for (int i = 0; i <= 10; i++) {
-			switch (array[i]) {
+
+		int[] job = { 1, 2, 3, 4, 5, 1, 3, 2, 4, 5 };
+
+		for (int i = 0; i <= 9; i++) {
+
+			switch (job[i]) {
+			
 			case 1:
 				System.out.println("勇者");
 				break;

@@ -3,15 +3,12 @@ package practice;
 public class PracticeDoWhile {
 
 	public static void main(String[] args) {
-		// TODO 自動生成されたメソッド・スタブ
-		 int num = 100; 
+		int num = 100;
 
-	        do {
-	            System.out.println(num);
-	            num--;
-	        } while (num >= 0);
+		do {
+			System.out.println(num);
 
-	        System.out.println("終了");
-	    }
+			num--;
+		} while (num >= 0);
+	}
 }
-
